@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+
+  h1 {
+    font-size: 64px;
+    font-weight: bold;
+  }
+  h5 {
+    font-size: 24px;
+    color: gray;
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 14px 24px;
+    max-width: 140px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}

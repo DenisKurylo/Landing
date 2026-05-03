@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 0;
+  border-top: 1px solid #E6E6E6;
+  justify-content: space-between;
+
+  .name_and_link {
+    display: inherit;
+    flex-direction: column;
+    gap: 88px;
+    font-size: 24px;
+    flex: 1;
+
+    .link {
+      display: inherit;
+      flex-direction: row;
+      gap: 8px;
+      align-items: center;
+    }
+  }
+  .link_page_list {
+    display: inherit;
+    flex-direction: row;
+    gap: 32px;
+    flex: 1;
+
+    .link_pages {
+      display: inherit;
+      flex-direction: column;
+      gap: 24px;
+      text-align: start;
+      max-width: 186px;
+      width: 100%;
+      color: #454545;
+
+      div:first-child {
+        color: black;
+      }
+    }
+  }
+}
