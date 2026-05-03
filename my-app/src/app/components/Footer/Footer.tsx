@@ -17,9 +17,9 @@ const Footer = () => {
                 </div>
                 <div className={cl.link_page_list}>
                     <div className={cl.link_pages}>
-                        <div>
+                        <span>
                             Topic
-                        </div>
+                        </span>
                         <div>
                             Page
                         </div>
@@ -31,9 +31,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className={cl.link_pages}>
-                        <div>
+                        <span>
                             Topic
-                        </div>
+                        </span>
                         <div>
                             Page
                         </div>
@@ -45,9 +45,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className={cl.link_pages}>
-                        <div>
+                        <span>
                             Topic
-                        </div>
+                        </span>
                         <div>
                             Page
                         </div>

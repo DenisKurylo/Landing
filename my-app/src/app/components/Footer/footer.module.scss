@@ -40,7 +40,16 @@
         width: 100%;
         color: #454545;
 
-        div:first-child {
+        div {
+          padding: 3px;
+          border-radius: 5px;
+          transition: all 0.3s ease-in-out;
+          cursor: pointer;
+        }
+        div:hover {
+          box-shadow: 0 4px #0000001A;
+        }
+        span {
           color: black;
         }
       }

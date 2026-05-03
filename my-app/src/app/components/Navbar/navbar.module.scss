@@ -17,6 +17,15 @@
     @media screen and (max-width: 768px) {
       display: none;
     }
+    p {
+      padding: 3px;
+      border-radius: 5px;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    }
+    p:hover {
+      box-shadow: 5px 4px 0 #0000001A;
+    }
 
     button {
       background-color: black;
