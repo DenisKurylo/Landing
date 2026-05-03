@@ -15,14 +15,14 @@ export default function RootLayout({
       className={`h-full antialiased`}
     >
 
-      <body className="min-h-full flex flex-col items-center gap-[115px]">
-      <div className="max-w-[1440px] flex flex-col gap-[115px]">
+      <body className="min-h-full flex flex-col  gap-[115px]">
+      <main className="flex max-w-[1440px] w-full flex-col mx-auto gap-[115px]">
         <Navbar/>
         <div>
           {children}
         </div>
         <Footer/>
-      </div>
+      </main>
       </body>
     </html>
   );

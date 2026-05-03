@@ -17,6 +17,10 @@
     flex-direction: row;
     gap: 32px;
 
+    @media screen and (max-width: 870px) {
+      flex-direction: column;
+    }
+
     .card {
       display: inherit;
       flex-direction: column;
@@ -30,6 +34,10 @@
       width: 100%;
       transition: transform 0.3s ease-in-out;
       cursor: pointer;
+
+      @media screen and (max-width: 870px) {
+        max-width: 100%;
+      }
 
       &:hover {
         transform: scale(1.05);
